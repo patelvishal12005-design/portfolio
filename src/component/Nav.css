@@ -1,0 +1,58 @@
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.13);
+  z-index: 1000;
+  box-shadow: 0px 0px 10px black;
+}
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Nav links box */
+.navbar-nav {
+  /* border: 2px solid black; */
+  border-radius: 100px;
+  /* padding: 8px 20px; */
+  margin-left: auto;
+}
+/* Links */
+.nav-link {
+  margin: 0 10px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(152, 152, 152);
+  font-size: 3.7vh;
+  transition: all 0.5s ease;
+}
+/* Social icons */
+.mediya {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.mediya i {
+  color: gray;
+  font-size: 5vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mediya i:hover {
+  color: purple;
+  transform: scale(1.2);
+}
+@media (max-width:970px) {
+  .navbar-nav{border: hidden;}
+}

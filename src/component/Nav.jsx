@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Nav.css'
 
 function Nav() {
@@ -7,7 +6,7 @@ function Nav() {
     <div className="nav">
       <nav className="navbar navbar-expand-lg p-0">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#home">
             <img src="logo2.png" alt="logo" height={60} width={120} />
           </a>
 
@@ -22,14 +21,14 @@ function Nav() {
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link" to="/">Home</Link>
-              <Link className="nav-link" to="/aboutme">About Me</Link>
-              <Link className="nav-link" to="/skill">Skill</Link>
-              <Link className="nav-link" to="/contectme">Contact Me</Link>
-              <Link className="nav-link" to="/Project">Project</Link>
+              <a className="nav-link" href="#home">Home</a>
+              <a className="nav-link" href="#aboutme">About Me</a>
+              <a className="nav-link" href="#skill">Skill</a>
+              <a className="nav-link" href="#project">Project</a>
+              <a className="nav-link" href="#contactme">Contact Me</a>
             </div>
 
-            <div className="mediya">
+            <div className="media">
               <i className="fa-brands fa-instagram"></i>
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-github"></i>

@@ -36,23 +36,37 @@
   transition: all 0.5s ease;
 }
 /* Social icons */
-.mediya {
+.media {
   margin-left: auto;
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
-.mediya i {
+.media i {
   color: gray;
-  font-size: 5vh;
+  font-size: 30px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.mediya i:hover {
+.media i:hover {
   color: purple;
   transform: scale(1.2);
 }
 @media (max-width:970px) {
-  .navbar-nav{border: hidden;}
+  .navbar-nav{
+    border: hidden;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .media {
+    margin: 10px auto;
+    justify-content: center;
+  }
+  
+  .nav-link:hover {
+    font-size: 1.2rem;
+  }
 }

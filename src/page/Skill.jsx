@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Nav from '../component/Nav'
 import './Skill.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -14,16 +13,15 @@ function Skill() {
   }, [])
 
   return (
-    <div className='skill'>
-      <Nav/>
-
-      <video autoPlay loop muted playsInline className='video1'>
+    <div>
+<h1 className='h1 text-white text-center'>SKILL</h1>
+    <div className='skill' id="skill">
+      {/* <video autoPlay loop muted playsInline className='video1'>
         <source src="skill1.mp4"></source>
-      </video>
-
+        </video> */}
       <div className="skill1">
         {/* AOS parent div par */}
-       <div className="cantenarskill d-flex">
+       <div className="containerskill d-flex">
   <img src="html.png" alt="html" data-aos="zoom-in" data-aos-delay="50"/>
   <img src="css.png" alt="css" data-aos="zoom-in" data-aos-delay="200"/>
   <img src="js.png" alt="js" data-aos="zoom-in" data-aos-delay="400"/>
@@ -34,7 +32,7 @@ function Skill() {
   </span>
 </div>
 
-<div className="cantenarskill1 d-flex">
+<div className="containerskill1 d-flex">
   <img src="react.png" alt="React" data-aos="zoom-in" data-aos-delay="900"/>
   <img src="db.webp" alt="mongodb" data-aos="zoom-in" data-aos-delay="1100"/>
 
@@ -48,6 +46,7 @@ function Skill() {
  </div>
 
     </div>
+        </div>
   )
 }
 

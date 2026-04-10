@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import Nav from '../component/Nav'
+import React, { useEffect } from 'react'
 import './Project.css'
 import Aos from 'aos'
 function Project() {
@@ -8,14 +7,13 @@ function Project() {
       duration:1500,
       once:true
     })
-  })
+  }, [])
   return (
-    <div className="project">
+    <div className="project" id="project">
 
-      <Nav />
-  <video autoPlay loop muted playsInline className="video1">
+  {/* <video autoPlay loop muted playsInline className="video1">
         <source src="project.mp4" type="video/mp4" />
-      </video>
+      </video> */}
       <h1 className="title" data-aos="fade-right">My Projects</h1>
 
       <div data-aos="fade-down" className="project-container">

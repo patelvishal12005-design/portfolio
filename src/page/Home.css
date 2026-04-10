@@ -1,3 +1,6 @@
+#home{
+  margin-top: 10%;
+}
 .video1{  
   position:fixed;
   top:0;
@@ -12,12 +15,17 @@
 
 .container{
   margin-top:20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* left section */
 
 .c2{
-  width:150vh;
+  width: 100%;
+  max-width: 800px;
 }
 
 /* heading */
@@ -73,12 +81,57 @@
   border:none;
   margin-left:10px;
   transition:0.3s;
-  a{color: white;
+  cursor: pointer;
+}
+
+.btn1 a{
+  color: white;
   text-decoration: none;
-  }
 }
 
 .btn1:hover{
   background:#22d3ee;
   transform:scale(1.05);
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 15vh;
+  }
+  
+  .c2 {
+    width: 100%;
+    margin-top: 5vh;
+  }
+  
+  .p1 {
+    font-size: 2.5rem;
+  }
+  
+  .text {
+    margin: 0 auto;
+  }
+  
+  .btn1 {
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .p1 {
+    font-size: 2rem;
+  }
+  
+  .p2 {
+    font-size: 0.9rem;
+  }
+  
+  .text {
+    width: 25vh;
+    height: 10vh;
+  }
 }

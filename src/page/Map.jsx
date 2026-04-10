@@ -1,5 +1,5 @@
 import Aos from 'aos';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import './Map.css'
 function Map() {
 useEffect(()=>{
@@ -7,7 +7,7 @@ useEffect(()=>{
     duration:1500,
     once:true
   })
-})
+}, [])
   return (
     <div>
       <h2 data-aos="fade-in" className='map' data-aos-delay="300">My Location</h2>

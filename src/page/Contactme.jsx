@@ -41,7 +41,7 @@ function Contactme() {
     <div id="contactme">
       <div className="form d-flex">
         {/* Left Side - Form */}
-        <div className="me1 p-4" data-aos="fade-right">
+        {/* <div className="me1 p-4" data-aos="fade-right">
           <h1 className="p-2" data-aos="fade-down">CONTACT ME</h1>
           <form onSubmit={handleSubmit}>
 
@@ -95,7 +95,7 @@ function Contactme() {
 
             <button type="submit" data-aos="fade-in">Submit</button>
           </form>
-        </div>
+        </div> */}
 
         {/* Right Side - Contact Info */}
         <div className="me2" data-aos="fade-left" data-aos-delay="200">

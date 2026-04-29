@@ -22,7 +22,9 @@ function Project() {
           <img data-aos="fade-left" src="logo1.png" alt="project"/>
           <h3 data-aos="fade-right">Food</h3>
           <p data-aos="fade-left">React portfolio website with animations.</p>
-          <button data-aos="fade-up" data-aos-delay="500" >View Project</button>
+          <a href="https://patelvishal12005-design.github.io/Food_ordering/" target="_blank" rel="noopener noreferrer">
+            <button data-aos="fade-up" data-aos-delay="500">View Project</button>
+          </a>
         </div>
 
         {/* <div className="project-card">

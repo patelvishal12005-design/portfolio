@@ -29,9 +29,9 @@ function Nav() {
             </div>
 
             <div className="media">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+             <a href='http://instagram.com/patelvishal2005/' target='_blank' rel='noopener noreferrer'> <i className="fa-brands fa-instagram"></i> </a>
+             <a href='https://www.linkedin.com/in/patel-vishal-2286903b3/' target='_blank' rel='noopener noreferrer'> <i className="fa-brands fa-linkedin"></i></a>
+             <a href='https://github.com/patelvishal12005-design' target='_blank' rel='noopener noreferrer'> <i className="fa-brands fa-github"></i></a>
             </div>
           </div>
         </div>

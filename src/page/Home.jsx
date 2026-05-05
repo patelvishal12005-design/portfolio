@@ -22,8 +22,8 @@ function Home() {
       <p className='p1 font-extrabold'>Full-Stack <br/>web Developer</p>
       <p className='p2' >I am currently pursuing my studies and learning web development technologies such as HTML, CSS, JavaScript, and React to build modern and responsive websites.</p>
       <a className=' nav-link' href='#project'> <button className='btn1 view'> view projects <i className="fa-solid fa-arrow-right"></i> </button> </a>
-      <button className='btn1 download'><a href="patel vishal - Resume.pdf" download="FileName" className="download-btn">
-    Download File
+      <button className='btn1 download'><a href="https://patelvishal12005-design.github.io/vishal_resume/" >
+    Download resume 
 </a> <i className="fa-solid fa-arrow-down"></i></button>
       </div>
       <div className="c1" data-aos="fade-left">
